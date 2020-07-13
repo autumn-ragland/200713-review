@@ -1,0 +1,57 @@
+/* sanity check */
+body {
+    /* background-color: lightblue; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* position sticky on first div */
+.divOne {
+    background-color: red;
+    position: sticky;
+    top : 0;
+    padding: 5%;
+    z-index: 1;
+}
+/* position fixed */
+.divTwo {
+    background-color: orange;
+    position: fixed;
+    top : 0;
+    right : 0;
+    padding: 5%;
+    z-index: -1;
+}
+/* position relative */
+.divThree {
+    background-color: blue;
+    padding: 5%;
+    position: relative;
+    left : 5%;
+}
+/* position absolute */
+.divFour {
+    background-color: green;
+    padding: 5%;
+    position: absolute;
+    top : 0;
+    right : 0;
+}
+/* positioned parent element */
+.parentDiv {
+    padding: 5%;
+    height: 800px;
+    background-color: palevioletred;
+    position: relative;
+}
+/* link styling */
+a {
+    font-size: 48px;
+    color: black;
+}
+/* link pseudo class */
+a:hover {
+    color: white;
+}
+/* link pseudo class */
+a:visited {
+    color: blue;
+}
