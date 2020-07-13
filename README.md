@@ -13,3 +13,5 @@
 - Style the link to be larger using font-size and black using color
 - Style the link color to be white when it is hovered over using the pseudo class `:hover`
 - Style the link color to be blue when it has already been clicked using the pseudo class `:visited`
+
+[More Info on CSS Psedo Classes](https://www.w3schools.com/css/css_pseudo_classes.asp)
